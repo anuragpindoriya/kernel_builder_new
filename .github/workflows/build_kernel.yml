@@ -53,17 +53,20 @@ jobs:
           echo "${CLANG_PATH}" >> $GITHUB_PATH
         
       - name: Compile kernel
+        if: ${{ env.NeedNoneKernelSUVarient != 'false' }}
         run: |
           chmod +x build.sh
           ./build.sh
 
       - name: Make output directory for kernel
+        if: ${{ env.NeedNoneKernelSUVarient != 'false' }}
         run: |
           mkdir outw
           mkdir outw/false
           mkdir outw/true
 
       - name: Move kernel without KernelSU support to output directory
+        if: ${{ env.NeedNoneKernelSUVarient != 'false' }}
         run: |
           chmod +x move.sh
           ./move.sh
