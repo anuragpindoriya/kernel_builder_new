@@ -48,7 +48,7 @@ DivestOS-13:
   
 S20-FE-5G:
   kernel:
-    - git clone https://github.com/pascua28/android_kernel_samsung_sm8250.git -b stable
+    - git clone https://github.com/anuragpindoriya/android_kernel_samsung_sm8250.git -b stable
   clang:
     - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git -b main
   config:
