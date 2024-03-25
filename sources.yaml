@@ -46,7 +46,7 @@ DivestOS-13:
   kernelSU:
     - stable-pin
   
-  S20-FE-5G:
+S20-FE-5G:
   kernel:
     - git clone https://github.com/pascua28/android_kernel_samsung_sm8250.git -b stable
   clang:
