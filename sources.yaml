@@ -61,6 +61,8 @@ S20-FE-5G:
     - s20FE5G
   kernelSU:
     - stable-pin
+  NeedNoneKernelSUVarient:
+    - false 
 
 Clean:
   out:
