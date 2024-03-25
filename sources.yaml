@@ -60,7 +60,7 @@ S20-FE-5G:
   anykernel:
     - s20FE5G
   kernelSU:
-    - stable-pin
+    - stable
   NeedNoneKernelSUVarient:
     - false 
 
