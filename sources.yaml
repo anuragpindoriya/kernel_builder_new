@@ -85,6 +85,6 @@ AnyKernel3:
     nashc:
       - git clone https://github.com/HowWof/AnyKernel3.git -b master
     s20FE5G:
-      - git clone https://github.com/anuragpindoriya/AnyKernel3.git -b s20FE5g
+      - git clone https://github.com/anuragpindoriya/AnyKernel3.git -b devices/s20FE5g
     test:
       - echo "Test Success!"
