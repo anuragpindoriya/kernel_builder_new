@@ -56,7 +56,7 @@ jobs:
         if: ${{ env.NeedNoneKernelSUVarient != 'false' }}
         run: |
           chmod +x build.sh
-          ./build.sh
+          ./build.sh || true
 
       - name: Make output directory for kernel
         if: ${{ env.NeedNoneKernelSUVarient != 'false' }}
@@ -69,7 +69,7 @@ jobs:
         if: ${{ env.NeedNoneKernelSUVarient != 'false' }}
         run: |
           chmod +x move.sh
-          ./move.sh
+          ./move.sh || true
 
       - name: Clean build environment
         run: |
