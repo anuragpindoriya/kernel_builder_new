@@ -75,6 +75,8 @@ jobs:
         run: |
           chmod +x clean.sh
           ./clean.sh
+          rm -rf KernelSU
+          rm -rf drivers/kernelsu
 
       - name: Set KERNELSU environment variable to true
         run: echo "KERNELSU=true" >> $GITHUB_ENV
