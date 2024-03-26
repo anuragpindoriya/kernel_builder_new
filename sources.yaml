@@ -66,7 +66,7 @@ S20-FE-5G:
 
 Moto-g52:
   kernel:
-    - git clone https://github.com/Tomoms/android_kernel_motorola_sm6225.git -b t
+    - git clone https://github.com/anuragpindoriya/android_kernel_motorola_sm6225_tom.git -b t
   clang:
     - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git -b main
   config:
