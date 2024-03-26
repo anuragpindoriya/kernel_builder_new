@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["LineageOS-20", "Zenitsu", "DivestOS-13", "S20-FE-5G", "Moto-g52"]
+        version: ["Moto-g52"]
 
     env:
       VERSION: ${{ matrix.version }}
