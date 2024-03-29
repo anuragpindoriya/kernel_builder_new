@@ -1,6 +1,6 @@
-LineageOS-20:
+LineageOS-20-nashc:
   kernel:
-    - git clone https://github.com/HowWof/android_kernel_realme_mt6785.git -b lineage-20
+    - git clone https://github.com/anuragpindoriya/android_kernel_realme_mt6785_howwof.git -b lineage-20
   clang:
     - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git -b main
   config:
@@ -14,7 +14,7 @@ LineageOS-20:
   kernelSU:
     - stable-pin
 
-Zenitsu:
+Zenitsu-nashc:
   kernel:
     - git clone https://github.com/Killerpac/android_kernel_realme_mt6785 -b zenitsu
   clang:
@@ -30,7 +30,7 @@ Zenitsu:
   kernelSU:
     - stable-pin
 
-DivestOS-13:
+DivestOS-13-nashc:
   kernel:
     - git clone https://github.com/HowWof/android_kernel_realme_mt6785.git -b divest-13
   clang:
