@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["LineageOS-20-nashc", "Zenitsu-nashc", "DivestOS-13-nashc", "S20-FE-5G"]
+        version: ["Redmi-note-10s"]
 
     env:
       VERSION: ${{ matrix.version }}
