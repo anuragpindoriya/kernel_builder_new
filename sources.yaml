@@ -80,7 +80,7 @@ Moto-g52:
   kernelSU:
     - stable
   
-  Redmi-note-10s:
+Redmi-note-10s:
   kernel:
     - git clone https://github.com/anuragpindoriya/android_kernel_xiaomi_rosemary.git -b 14.0
   clang:
