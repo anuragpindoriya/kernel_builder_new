@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["Redmi-note-10s"]
+        version: ["Redmi-note-10s-lineage","Redmi-note-10s-AndroDesk"]
 
     env:
       VERSION: ${{ matrix.version }}
