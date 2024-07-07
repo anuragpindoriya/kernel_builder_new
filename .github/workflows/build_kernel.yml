@@ -3,6 +3,8 @@ name: KernelSU Builder
 on:
   push:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 6'  # once in week 
   repository_dispatch:
     types: [trigger-KernelSU-build]
 
