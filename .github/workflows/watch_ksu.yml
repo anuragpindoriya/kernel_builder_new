@@ -1,7 +1,7 @@
 name: Watch KernelSU
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Run every 3 hours
+    - cron: '0 0 * * 6'  # once in week 
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
